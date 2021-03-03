@@ -1,0 +1,40 @@
+{
+  "name": "financials-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Financials Content Management System",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "<0.20.0",
+    "pg": "^8.5.1",
+    "pg-connection-string": "^2.4.0",
+    "sqlite3": "latest",
+    "strapi": "3.2.5",
+    "strapi-admin": "3.2.5",
+    "strapi-connector-bookshelf": "3.2.5",
+    "strapi-plugin-content-manager": "3.2.5",
+    "strapi-plugin-content-type-builder": "3.2.5",
+    "strapi-plugin-email": "3.2.5",
+    "strapi-plugin-graphql": "3.2.5",
+    "strapi-plugin-upload": "3.2.5",
+    "strapi-plugin-users-permissions": "3.2.5",
+    "strapi-utils": "3.2.5"
+  },
+  "author": {
+    "name": "ScribesMedium"
+  },
+  "strapi": {
+    "uuid": "ae558927-3b58-4a2f-8e20-351bcc2d42c3"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
